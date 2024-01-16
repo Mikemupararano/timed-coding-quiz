@@ -1,5 +1,5 @@
-# timed-coding-quiz
-In this respository, I showcase a timed coding quiz that I designed using HTML, CSS and JavaScript.
+# A timed-coding-quiz
+In this repository, I showcase a timed coding quiz that I designed using HTML, CSS and JavaScript.
 If a participant takes the code quiz and click the start button, the timer will start immediately. 
 
 Once the time starts, the participant is presented with a question and once a question is answered, another questions comes up on the screen!
@@ -9,8 +9,6 @@ The interesting thing is that once when all questions are answered or the timer 
 
 Also, when the game is over, the web application will save the participant's initials and the score. 
 
-
-I have used HTML, CSS and JavaScript to design a quiz that has questions that are timed. Participants are penalised for getting an answer wrong or not using their time to answer the questions. 
 The project is located at the following link:
 https://mikemupararano.github.io/timed-coding-quiz/
 https://github.com/Mikemupararano/timed-coding-quiz
