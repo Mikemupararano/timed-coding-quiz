@@ -1,6 +1,31 @@
 // logic.js
-
 document.addEventListener("DOMContentLoaded", function () {
+  const startButton = document.getElementById("start");
+  const timeElement = document.getElementById("time");
+  const questionTitle = document.getElementById("question-title");
+  const choicesContainer = document.getElementById("choices");
+  const endScreen = document.getElementById("end-screen");
+  const finalScoreElement = document.getElementById("final-score");
+  const initialsInput = document.getElementById("initials");
+  const submitButton = document.getElementById("submit");
+  const clearButton = document.getElementById("clear");
+
+  if (!startButton || !timeElement || !questionTitle || !choicesContainer || !endScreen || !finalScoreElement || !initialsInput || !submitButton || !clearButton) {
+    console.error("One or more elements not found. Check your HTML structure.");
+    return;
+  }
+
+  let currentQuestionIndex = 0;
+  let timeLeft = 60; // Initial time in seconds
+  let timerInterval;
+
+  startButton.addEventListener("click", startQuiz);
+  submitButton.addEventListener("click", submitScore);
+  clearButton.addEventListener("click", clearHighScores);
+
+ });
+
+/*document.addEventListener("DOMContentLoaded", function () {
   const startButton = document.getElementById("start");
   const timeElement = document.getElementById("time");
   const questionTitle = document.getElementById("question-title");
@@ -17,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   startButton.addEventListener("click", startQuiz);
   submitButton.addEventListener("click", submitScore);
-  clearButton.addEventListener("click", clearHighScores);
+  clearButton.addEventListener("click", clearHighScores);*/
 
   function startQuiz() {
     startButton.style.display = "none";
