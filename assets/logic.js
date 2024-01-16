@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const initials = initialsInput.value;
     saveHighScore(timeLeft, initials);
     console.log("Score submitted:", timeLeft, initials);
-    // You can add your logic to navigate to the highscores page or perform other actions
+    
   }
 
   function saveHighScore(score, initials) {
@@ -126,6 +126,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function clearHighScores() {
     localStorage.removeItem("highScores");
-    // Optionally, update the UI to remove displayed high scores
+    
   }
 });

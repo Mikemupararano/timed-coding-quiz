@@ -17,14 +17,14 @@ function saveHighScore(score, initials) {
 
   highScores.push(newScore);
 
-  // Sort the high scores in descending order
+  // Sorting the high scores in descending order
   highScores.sort((a, b) => b.score - a.score);
 
-  // Keep only the top 5 high scores
+  // Keeping the top 5 high scores
   highScores.splice(5);
 
-  // Save the updated high scores to local storage
+  // Saving updated high scores to local storage
   localStorage.setItem("highScores", JSON.stringify(highScores));
 }
 
-// You can add more functions or customize the logic as needed
+

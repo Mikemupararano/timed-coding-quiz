@@ -28,4 +28,4 @@ const questions = [
   }
 ];
 
-// You can add more questions as needed
+// There is possibility to add more questions here.
