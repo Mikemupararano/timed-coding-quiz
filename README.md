@@ -1,5 +1,14 @@
 # timed-coding-quiz
 In this respository, I showcase a timed coding quiz that I designed using HTML, CSS and JavaScript.
+If a participant takes the code quiz and click the start button, the timer will start immediately. 
+
+Once the time starts, the participant is presented with a question and once a question is answered, another questions comes up on the screen!
+When an answer is incorrect, the time is subtracted from the clock.
+
+The interesting thing is that once when all questions are answered or the timer reaches 0, the game is over!
+
+Also, when the game is over, the web application will save the participant's initials and the score. 
+
 
 I have used HTML, CSS and JavaScript to design a quiz that has questions that are timed. Participants are penalised for getting an answer wrong or not using their time to answer the questions. 
 The project is located at the following link:
@@ -18,7 +27,7 @@ No installation is required.
 A screenshot of the work, is shown here:
 ![A screenshot of the project landing page is here:](./assets/images/quiz-landing%20page.png)
 ![A screenshot of the application showing a question:](./assets/images/question1.png)
-![A screenshot of a prompt:](./assets/lowercase-prompt.png)
+![A screenshot of a zero score:](./assets/images/zero-score.png)
 
 
 
